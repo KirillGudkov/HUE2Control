@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CE6CECB2595E85D00F7C1D9 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE6CECA2595E85D00F7C1D9 /* App.swift */; };
+		3CE6CECD2595E85D00F7C1D9 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE6CECC2595E85D00F7C1D9 /* Container.swift */; };
+		3CE6CECF2595E85E00F7C1D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CE6CECE2595E85E00F7C1D9 /* Assets.xcassets */; };
+		3CE6CED22595E85E00F7C1D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CE6CED12595E85E00F7C1D9 /* Preview Assets.xcassets */; };
+		3CE6CEDC2595E96900F7C1D9 /* NSImage+tinted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE6CEDB2595E96900F7C1D9 /* NSImage+tinted.swift */; };
+		3CE6CEDF2595E9EA00F7C1D9 /* ShellHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE6CEDE2595E9EA00F7C1D9 /* ShellHelper.swift */; };
+		3CE6CEE22595EA1D00F7C1D9 /* MenuBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE6CEE12595EA1D00F7C1D9 /* MenuBuilder.swift */; };
+		3CE6CEE52595F19E00F7C1D9 /* AmbientType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE6CEE42595F19E00F7C1D9 /* AmbientType.swift */; };
+		3CE6CEEF2596068A00F7C1D9 /* SideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE6CEEE2596068A00F7C1D9 /* SideBar.swift */; };
+		3CE6CEF22596070500F7C1D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE6CEF12596070500F7C1D9 /* ContentView.swift */; };
+		3CE6CEF62596073700F7C1D9 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE6CEF52596073700F7C1D9 /* SettingsViewModel.swift */; };
+		3CE6CF002596077D00F7C1D9 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE6CEFF2596077D00F7C1D9 /* Category.swift */; };
+		3CE6CF0D2596181F00F7C1D9 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE6CF0C2596181F00F7C1D9 /* Settings.swift */; };
+		3CE6CF12259619B400F7C1D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE6CF11259619B400F7C1D9 /* AppDelegate.swift */; };
+		3CE6CF1725961AA000F7C1D9 /* LightingToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE6CF1625961AA000F7C1D9 /* LightingToggle.swift */; };
+		3CE6CF22259632B400F7C1D9 /* ColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE6CF21259632B400F7C1D9 /* ColorPicker.swift */; };
+		3CE6CF25259632E000F7C1D9 /* Color+Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE6CF24259632E000F7C1D9 /* Color+Dynamic.swift */; };
+		3CE6CF292596345C00F7C1D9 /* DynamicColor in Frameworks */ = {isa = PBXBuildFile; productRef = 3CE6CF282596345C00F7C1D9 /* DynamicColor */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3CE6CEC72595E85D00F7C1D9 /* HUE 2 Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HUE 2 Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CE6CECA2595E85D00F7C1D9 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		3CE6CECC2595E85D00F7C1D9 /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		3CE6CECE2595E85E00F7C1D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CE6CED12595E85E00F7C1D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3CE6CED32595E85E00F7C1D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CE6CED42595E85E00F7C1D9 /* HUE_Control.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HUE_Control.entitlements; sourceTree = "<group>"; };
+		3CE6CEDB2595E96900F7C1D9 /* NSImage+tinted.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSImage+tinted.swift"; sourceTree = "<group>"; };
+		3CE6CEDE2595E9EA00F7C1D9 /* ShellHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShellHelper.swift; sourceTree = "<group>"; };
+		3CE6CEE12595EA1D00F7C1D9 /* MenuBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBuilder.swift; sourceTree = "<group>"; };
+		3CE6CEE42595F19E00F7C1D9 /* AmbientType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbientType.swift; sourceTree = "<group>"; };
+		3CE6CEEE2596068A00F7C1D9 /* SideBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBar.swift; sourceTree = "<group>"; };
+		3CE6CEF12596070500F7C1D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3CE6CEF52596073700F7C1D9 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		3CE6CEFF2596077D00F7C1D9 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		3CE6CF0C2596181F00F7C1D9 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		3CE6CF11259619B400F7C1D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3CE6CF1625961AA000F7C1D9 /* LightingToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightingToggle.swift; sourceTree = "<group>"; };
+		3CE6CF21259632B400F7C1D9 /* ColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPicker.swift; sourceTree = "<group>"; };
+		3CE6CF24259632E000F7C1D9 /* Color+Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Dynamic.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CE6CEC42595E85D00F7C1D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE6CF292596345C00F7C1D9 /* DynamicColor in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CE6CEBE2595E85D00F7C1D9 = {
+			isa = PBXGroup;
+			children = (
+				3CE6CEC92595E85D00F7C1D9 /* HUE Control */,
+				3CE6CEC82595E85D00F7C1D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CE6CEC82595E85D00F7C1D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CE6CEC72595E85D00F7C1D9 /* HUE 2 Control.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CE6CEC92595E85D00F7C1D9 /* HUE Control */ = {
+			isa = PBXGroup;
+			children = (
+				3CE6CECA2595E85D00F7C1D9 /* App.swift */,
+				3CE6CF11259619B400F7C1D9 /* AppDelegate.swift */,
+				3CE6CEF42596071800F7C1D9 /* viewModel */,
+				3CE6CEE92595F1F500F7C1D9 /* model */,
+				3CE6CEE82595F1DB00F7C1D9 /* view */,
+				3CE6CEE72595F1C600F7C1D9 /* helper */,
+				3CE6CECE2595E85E00F7C1D9 /* Assets.xcassets */,
+				3CE6CED32595E85E00F7C1D9 /* Info.plist */,
+				3CE6CED42595E85E00F7C1D9 /* HUE_Control.entitlements */,
+				3CE6CED02595E85E00F7C1D9 /* Preview Content */,
+			);
+			path = "HUE Control";
+			sourceTree = "<group>";
+		};
+		3CE6CED02595E85E00F7C1D9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3CE6CED12595E85E00F7C1D9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3CE6CEE72595F1C600F7C1D9 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				3CE6CEDB2595E96900F7C1D9 /* NSImage+tinted.swift */,
+				3CE6CEDE2595E9EA00F7C1D9 /* ShellHelper.swift */,
+				3CE6CF24259632E000F7C1D9 /* Color+Dynamic.swift */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+		3CE6CEE82595F1DB00F7C1D9 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				3CE6CF1525961A8C00F7C1D9 /* custom */,
+				3CE6CF0C2596181F00F7C1D9 /* Settings.swift */,
+				3CE6CEEE2596068A00F7C1D9 /* SideBar.swift */,
+				3CE6CEF12596070500F7C1D9 /* ContentView.swift */,
+				3CE6CEE12595EA1D00F7C1D9 /* MenuBuilder.swift */,
+				3CE6CECC2595E85D00F7C1D9 /* Container.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		3CE6CEE92595F1F500F7C1D9 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				3CE6CEE42595F19E00F7C1D9 /* AmbientType.swift */,
+				3CE6CEFF2596077D00F7C1D9 /* Category.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		3CE6CEF42596071800F7C1D9 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3CE6CEF52596073700F7C1D9 /* SettingsViewModel.swift */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		3CE6CF1525961A8C00F7C1D9 /* custom */ = {
+			isa = PBXGroup;
+			children = (
+				3CE6CF1625961AA000F7C1D9 /* LightingToggle.swift */,
+				3CE6CF21259632B400F7C1D9 /* ColorPicker.swift */,
+			);
+			path = custom;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CE6CEC62595E85D00F7C1D9 /* HUE 2 Control */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CE6CED72595E85E00F7C1D9 /* Build configuration list for PBXNativeTarget "HUE 2 Control" */;
+			buildPhases = (
+				3CE6CEC32595E85D00F7C1D9 /* Sources */,
+				3CE6CEC42595E85D00F7C1D9 /* Frameworks */,
+				3CE6CEC52595E85D00F7C1D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HUE 2 Control";
+			packageProductDependencies = (
+				3CE6CF282596345C00F7C1D9 /* DynamicColor */,
+			);
+			productName = "HUE Control";
+			productReference = 3CE6CEC72595E85D00F7C1D9 /* HUE 2 Control.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CE6CEBF2595E85D00F7C1D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					3CE6CEC62595E85D00F7C1D9 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 3CE6CEC22595E85D00F7C1D9 /* Build configuration list for PBXProject "HUE 2 Control" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CE6CEBE2595E85D00F7C1D9;
+			packageReferences = (
+				3CE6CF272596345C00F7C1D9 /* XCRemoteSwiftPackageReference "DynamicColor" */,
+			);
+			productRefGroup = 3CE6CEC82595E85D00F7C1D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CE6CEC62595E85D00F7C1D9 /* HUE 2 Control */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CE6CEC52595E85D00F7C1D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE6CED22595E85E00F7C1D9 /* Preview Assets.xcassets in Resources */,
+				3CE6CECF2595E85E00F7C1D9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CE6CEC32595E85D00F7C1D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE6CEDF2595E9EA00F7C1D9 /* ShellHelper.swift in Sources */,
+				3CE6CEE22595EA1D00F7C1D9 /* MenuBuilder.swift in Sources */,
+				3CE6CEEF2596068A00F7C1D9 /* SideBar.swift in Sources */,
+				3CE6CF1725961AA000F7C1D9 /* LightingToggle.swift in Sources */,
+				3CE6CEDC2595E96900F7C1D9 /* NSImage+tinted.swift in Sources */,
+				3CE6CECD2595E85D00F7C1D9 /* Container.swift in Sources */,
+				3CE6CEE52595F19E00F7C1D9 /* AmbientType.swift in Sources */,
+				3CE6CF0D2596181F00F7C1D9 /* Settings.swift in Sources */,
+				3CE6CECB2595E85D00F7C1D9 /* App.swift in Sources */,
+				3CE6CF22259632B400F7C1D9 /* ColorPicker.swift in Sources */,
+				3CE6CF25259632E000F7C1D9 /* Color+Dynamic.swift in Sources */,
+				3CE6CEF22596070500F7C1D9 /* ContentView.swift in Sources */,
+				3CE6CEF62596073700F7C1D9 /* SettingsViewModel.swift in Sources */,
+				3CE6CF12259619B400F7C1D9 /* AppDelegate.swift in Sources */,
+				3CE6CF002596077D00F7C1D9 /* Category.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3CE6CED52595E85E00F7C1D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CE6CED62595E85E00F7C1D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3CE6CED82595E85E00F7C1D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "HUE Control/HUE_Control.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"HUE Control/Preview Content\"";
+				DEVELOPMENT_TEAM = HZRCHUKZ6R;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "HUE Control/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KirillGudkov.HUE-Control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3CE6CED92595E85E00F7C1D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "HUE Control/HUE_Control.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"HUE Control/Preview Content\"";
+				DEVELOPMENT_TEAM = HZRCHUKZ6R;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "HUE Control/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KirillGudkov.HUE-Control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CE6CEC22595E85D00F7C1D9 /* Build configuration list for PBXProject "HUE 2 Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CE6CED52595E85E00F7C1D9 /* Debug */,
+				3CE6CED62595E85E00F7C1D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CE6CED72595E85E00F7C1D9 /* Build configuration list for PBXNativeTarget "HUE 2 Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CE6CED82595E85E00F7C1D9 /* Debug */,
+				3CE6CED92595E85E00F7C1D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3CE6CF272596345C00F7C1D9 /* XCRemoteSwiftPackageReference "DynamicColor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yannickl/DynamicColor";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3CE6CF282596345C00F7C1D9 /* DynamicColor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3CE6CF272596345C00F7C1D9 /* XCRemoteSwiftPackageReference "DynamicColor" */;
+			productName = DynamicColor;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3CE6CEBF2595E85D00F7C1D9 /* Project object */;
+}
